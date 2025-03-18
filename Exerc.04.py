@@ -39,7 +39,7 @@ def simulacao_poupanca(saldo=0,
 
     saldo = saldo_em_dol*lista_de_valores_do_dollar_2024[indice] 
 
-    meses += 1  # Passa um mês
+    meses += 1  # Passa um mêis
 
     # Se atingir R$ 100.000 pela primeira vez, armazena o valor dos juros
     if saldo >= 100_000 and juros100k is None:
